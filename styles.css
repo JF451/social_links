@@ -1,0 +1,48 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+  color: #fff;
+}
+
+img {
+  border-radius: 50%;
+}
+
+
+.btn {
+  background-color: #333333;
+  width: 304px;
+  height: 45px;
+  border: none;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #C4F82A;
+  color: #333333;
+}
+
+main {
+  background-color: #1F1F1F;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+span {
+  color: #C4F82A;
+}
